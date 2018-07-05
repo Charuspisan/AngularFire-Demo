@@ -19,7 +19,6 @@ export class AppComponent {
 
   public books: FirebaseListObservable<Book[]>;
   private bookCounter = 0;
-  private filter = '';
   private allBooks: any;
   booksSec: any;
   booksSecFilter: any;
